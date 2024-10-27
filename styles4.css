@@ -1,0 +1,75 @@
+header {
+    background: linear-gradient(90deg, #995bc0, #ab47bc); /* Using shades of purple */
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+button {
+    background: #ab47bc; /* Bright purple for buttons */
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #9c27b0; /* Darker purple on hover */
+}
+
+body {
+    background-color: #f3e5f5; /* Light lavender background */
+    color: #4a148c; /* Dark purple text */
+    font-family: "Times New Roman", Times, serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #6a1b9a; /* Medium purple */
+    text-align: center;
+}
+
+h2 {
+    color: #8e24aa; /* Lighter purple */
+}
+
+p {
+    color: #7b1fa2; /* Soft purple */
+    line-height: 1.6;
+}
+
+.button {
+    background-color: #ab47bc; /* Bright purple for buttons */
+    color: white; /* White text on buttons */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #9c27b0; /* Darker purple on hover */
+}
+
+.card {
+    background-color: #e1bee7; /* Light purple for cards */
+    border: 1px solid #d1c4e9; /* Soft border */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
